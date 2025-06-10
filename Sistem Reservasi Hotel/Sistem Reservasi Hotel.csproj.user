@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="View\Dasboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\EditFasilitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\EditKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormDaftar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormKelolaKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormRiwayatTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\KelolaFasilitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\FormReservasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\TambahFasilitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\TambahKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

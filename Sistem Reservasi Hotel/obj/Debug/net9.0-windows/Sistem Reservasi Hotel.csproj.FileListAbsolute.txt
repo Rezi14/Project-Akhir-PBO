@@ -1,0 +1,99 @@
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.exe
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.deps.json
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.runtimeconfig.json
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.pdb
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Npgsql.dll
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.AssemblyReference.cache
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.Properties.Resources.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.Dasboard.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormDaftar.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormLogin.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.GenerateResource.cache
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.AssemblyInfoInputs.cache
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.AssemblyInfo.cs
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem R.D955D046.Up2Date
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\refint\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.pdb
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.genruntimeconfig.cache
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\ref\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormKelolaKamar.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.EditKamar.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.TambahKamar.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.KelolaFasilitas.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.EditFasilitas.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.TambahFasilitas.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormReservasi.resources
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.sourcelink.json
+C:\Users\LENOVO LOQ\source\repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormRiwayatTransaksi.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.exe
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.deps.json
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.runtimeconfig.json
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.pdb
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Npgsql.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.AssemblyReference.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.Properties.Resources.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.Dasboard.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.EditFasilitas.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.EditKamar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormDaftar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormKelolaKamar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormLogin.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormReservasi.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormRiwayatTransaksi.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.KelolaFasilitas.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.TambahFasilitas.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.TambahKamar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.GenerateResource.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.AssemblyInfoInputs.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.AssemblyInfo.cs
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.sourcelink.json
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem R.D955D046.Up2Date
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\refint\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.pdb
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.genruntimeconfig.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel\Sistem Reservasi Hotel\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\ref\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.exe
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.deps.json
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.runtimeconfig.json
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Sistem Reservasi Hotel.pdb
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\bin\Debug\net9.0-windows\Npgsql.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.AssemblyReference.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.Properties.Resources.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.Dasboard.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.EditFasilitas.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.EditKamar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormDaftar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormKelolaKamar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormLogin.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormReservasi.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.FormRiwayatTransaksi.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.KelolaFasilitas.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.TambahFasilitas.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem_Reservasi_Hotel.View.TambahKamar.resources
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.GenerateResource.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.AssemblyInfoInputs.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.AssemblyInfo.cs
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.sourcelink.json
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem R.D955D046.Up2Date
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\refint\Sistem Reservasi Hotel.dll
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.pdb
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\Sistem Reservasi Hotel.genruntimeconfig.cache
+C:\Users\LENOVO LOQ\Source\Repos\Sistem Reservasi Hotel Final\Sistem Reservasi Hotel\obj\Debug\net9.0-windows\ref\Sistem Reservasi Hotel.dll

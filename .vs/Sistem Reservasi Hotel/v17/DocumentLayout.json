@@ -1,0 +1,670 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\tambahfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\tambahfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\kelolafasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\kelolafasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\formriwayattransaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formriwayattransaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\formreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\formkelolakamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formkelolakamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\formdaftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formdaftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\editfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\editfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\view\\dasboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\dasboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\models\\tipekamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\models\\tipekamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\models\\riwayattransaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\models\\riwayattransaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\models\\reservasifasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\models\\reservasifasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\models\\reservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\models\\reservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\models\\kamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\models\\kamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\models\\fasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\models\\fasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\models\\akun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\models\\akun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\controller\\tipekamarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\controller\\tipekamarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\controller\\riwayattransaksicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\controller\\riwayattransaksicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\controller\\reservasicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\controller\\reservasicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\controller\\kamarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\controller\\kamarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\controller\\fasilitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\controller\\fasilitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\controller\\daftarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\controller\\daftarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\editkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\formreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formreservasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\dasboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\dasboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\formkelolakamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formkelolakamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\editfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\editfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\tambahfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\tambahfasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\tambahkamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\formriwayattransaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formriwayattransaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\formdaftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\formdaftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\sistem reservasi hotel\\view\\kelolafasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\view\\kelolafasilitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|c:\\users\\lenovo loq\\source\\repos\\sistem reservasi hotel final\\sistem reservasi hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CD6D71-FFEC-4AE0-BB82-F946878DAC65}|Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj|solutionrelative:sistem reservasi hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReservasiFasilitas.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\ReservasiFasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Models\\ReservasiFasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\ReservasiFasilitas.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Models\\ReservasiFasilitas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:47:31.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TambahKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahKamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\TambahKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahKamar.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\TambahKamar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:21:21.538Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\LoginController.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Controller\\LoginController.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\LoginController.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Controller\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:18:01.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TipeKamarController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\TipeKamarController.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Controller\\TipeKamarController.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\TipeKamarController.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Controller\\TipeKamarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T15:47:22.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TipeKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\TipeKamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Models\\TipeKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\TipeKamar.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Models\\TipeKamar.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T15:43:17.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EditFasilitas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditFasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\EditFasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditFasilitas.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\EditFasilitas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:08:31.496Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "KelolaFasilitas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:04:00.675Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FormReservasi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormReservasi.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormReservasi.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormReservasi.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormReservasi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T09:37:07.942Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FormDaftar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormDaftar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormDaftar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormDaftar.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormDaftar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:36:20.388Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditKamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\EditKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditKamar.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\EditKamar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:35:59.397Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Program.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Program.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:33:57.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormKelolaKamar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:13:39.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\DbContext.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\DbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\DbContext.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\DbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:50:57.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TambahFasilitas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahFasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\TambahFasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahFasilitas.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\TambahFasilitas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:59:23.727Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FormRiwayatTransaksi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:57:46.721Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormLogin.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:55:37.545Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dasboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\Dasboard.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\Dasboard.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\Dasboard.cs [Design]",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\Dasboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:53:51.999Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TambahKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahKamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\TambahKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahKamar.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\TambahKamar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:31.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TambahFasilitas.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahFasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\TambahFasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\TambahFasilitas.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\TambahFasilitas.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:29.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KelolaFasilitas.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\KelolaFasilitas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:27.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormRiwayatTransaksi.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormRiwayatTransaksi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:26.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormReservasi.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormReservasi.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormReservasi.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormReservasi.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormReservasi.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAADwv1UAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:24.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormLogin.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormLogin.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:22.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormKelolaKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormKelolaKamar.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwF0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:20.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormDaftar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormDaftar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\FormDaftar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\FormDaftar.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\FormDaftar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:19.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditKamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditKamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\EditKamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditKamar.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\EditKamar.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwCgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:17.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditFasilitas.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditFasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\EditFasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\EditFasilitas.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\EditFasilitas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:15.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dasboard.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\Dasboard.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\View\\Dasboard.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\View\\Dasboard.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\View\\Dasboard.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAUwB8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:19:12.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RiwayatTransaksiController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\RiwayatTransaksiController.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Controller\\RiwayatTransaksiController.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\RiwayatTransaksiController.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Controller\\RiwayatTransaksiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:18:52.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReservasiController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\ReservasiController.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Controller\\ReservasiController.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\ReservasiController.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Controller\\ReservasiController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAC0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:18:43.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FasilitasController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\FasilitasController.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Controller\\FasilitasController.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\FasilitasController.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Controller\\FasilitasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:18:33.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KamarController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\KamarController.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Controller\\KamarController.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\KamarController.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Controller\\KamarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:18:20.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DaftarController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\DaftarController.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Controller\\DaftarController.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Controller\\DaftarController.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Controller\\DaftarController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:18:12.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RiwayatTransaksi.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\RiwayatTransaksi.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Models\\RiwayatTransaksi.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\RiwayatTransaksi.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Models\\RiwayatTransaksi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:17:38.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Reservasi.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Reservasi.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Models\\Reservasi.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Reservasi.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Models\\Reservasi.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAmwKAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:16:56.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Fasilitas.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Fasilitas.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Models\\Fasilitas.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Fasilitas.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Models\\Fasilitas.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwIIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:16:45.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Kamar.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Kamar.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Models\\Kamar.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Kamar.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Models\\Kamar.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAALEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:16:32.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Akun.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Akun.cs",
+              "RelativeDocumentMoniker": "Sistem Reservasi Hotel\\Models\\Akun.cs",
+              "ToolTip": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Models\\Akun.cs",
+              "RelativeToolTip": "Sistem Reservasi Hotel\\Models\\Akun.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswCsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:16:16.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
