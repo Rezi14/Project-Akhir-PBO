@@ -165,7 +165,6 @@ namespace Sistem_Reservasi_Hotel.View
                 tampilkanreservasi();
                 TampilkanKamarTersedia();
             }
-
         }
     }
 }

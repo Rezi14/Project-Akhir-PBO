@@ -24,6 +24,35 @@ namespace Sistem_Reservasi_Hotel.View
             tampilkankamar();
 
         }
+
+        private void btnTambahKamar1_Click(object sender, EventArgs e)
+        {
+            using (TambahKamar formTambah = new TambahKamar())
+            {
+                DialogResult result = formTambah.ShowDialog();
+
+                if (result == DialogResult.OK)
+                {
+                    tampilkankamar();
+                }
+            }
+        }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            Dasboard dasboard = new Dasboard();
+            dasboard.Show();
+            this.Hide();
+        }
+        private void ResetKolomUrutan()
+        {
+            if (dataGridViewKelolaKamar.Columns.Contains("Edit"))
+                dataGridViewKelolaKamar.Columns["Edit"].DisplayIndex = dataGridViewKelolaKamar.Columns.Count - 1;
+
+            if (dataGridViewKelolaKamar.Columns.Contains("Hapus"))
+                dataGridViewKelolaKamar.Columns["Hapus"].DisplayIndex = dataGridViewKelolaKamar.Columns.Count - 1;
+        }
+
         private void tampilkankamar()
         {
             List<Kamar> listKamar = KamarController.GetAllKamar();
@@ -115,37 +144,6 @@ namespace Sistem_Reservasi_Hotel.View
                     }
                 }
             }
-        }
-
-        private void btnKembali_Click(object sender, EventArgs e)
-        {
-            Dasboard dasboard = new Dasboard();
-            dasboard.Show();
-            this.Hide();
-        }
-        private void ResetKolomUrutan()
-        {
-            if (dataGridViewKelolaKamar.Columns.Contains("Edit"))
-                dataGridViewKelolaKamar.Columns["Edit"].DisplayIndex = dataGridViewKelolaKamar.Columns.Count - 1;
-
-            if (dataGridViewKelolaKamar.Columns.Contains("Hapus"))
-                dataGridViewKelolaKamar.Columns["Hapus"].DisplayIndex = dataGridViewKelolaKamar.Columns.Count - 1;
-        }
-
-
-        private void btnTambahKamar1_Click(object sender, EventArgs e)
-        {
-            using (TambahKamar formTambah = new TambahKamar())
-            {
-                DialogResult result = formTambah.ShowDialog();
-
-                if (result == DialogResult.OK)
-                {
-                    tampilkankamar(); 
-                }
-            }
-        }
-
-        
+        } 
     }
 }

@@ -19,6 +19,37 @@ namespace Sistem_Reservasi_Hotel.View
             InitializeComponent();
         }
 
+        private void KelolaFasilitas_Load(object sender, EventArgs e)
+        {
+            tampilkanfasilitas();
+        }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            Dasboard dasboard = new Dasboard();
+            dasboard.Show();
+            this.Hide();
+        }
+
+        private void btnTambahFasilitas1_Click(object sender, EventArgs e)
+        {
+            using (TambahFasilitas formTambah = new TambahFasilitas())
+            {
+                if (formTambah.ShowDialog() == DialogResult.OK)
+                {
+                    tampilkanfasilitas();
+                }
+            }
+        }
+        private void ResetKolomUrutan()
+        {
+            if (dataGridViewKelolaFasilitas.Columns.Contains("Edit"))
+                dataGridViewKelolaFasilitas.Columns["Edit"].DisplayIndex = dataGridViewKelolaFasilitas.Columns.Count - 1;
+
+            if (dataGridViewKelolaFasilitas.Columns.Contains("Hapus"))
+                dataGridViewKelolaFasilitas.Columns["Hapus"].DisplayIndex = dataGridViewKelolaFasilitas.Columns.Count - 1;
+        }
+
         private void dataGridViewKelolaFasilitas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -111,38 +142,5 @@ namespace Sistem_Reservasi_Hotel.View
             
             ResetKolomUrutan();
         }
-
-
-        private void KelolaFasilitas_Load(object sender, EventArgs e)
-        {
-            tampilkanfasilitas();
-        }
-
-        private void btnKembali_Click(object sender, EventArgs e)
-        {
-            Dasboard dasboard = new Dasboard();
-            dasboard.Show();
-            this.Hide();
-        }
-
-        private void btnTambahFasilitas1_Click(object sender, EventArgs e)
-        {
-            using (TambahFasilitas formTambah = new TambahFasilitas())
-            {
-                if (formTambah.ShowDialog() == DialogResult.OK)
-                {
-                    tampilkanfasilitas(); 
-                }
-            }
-        }
-        private void ResetKolomUrutan()
-        {
-            if (dataGridViewKelolaFasilitas.Columns.Contains("Edit"))
-                dataGridViewKelolaFasilitas.Columns["Edit"].DisplayIndex = dataGridViewKelolaFasilitas.Columns.Count - 1;
-
-            if (dataGridViewKelolaFasilitas.Columns.Contains("Hapus"))
-                dataGridViewKelolaFasilitas.Columns["Hapus"].DisplayIndex = dataGridViewKelolaFasilitas.Columns.Count - 1;
-        }
-
     }
 }

@@ -2,7 +2,6 @@
 using System;
 using System.Security.Cryptography;
 using System.Text;
-using System.Windows.Forms;
 
 namespace Sistem_Reservasi_Hotel.Models
 {
@@ -11,8 +10,6 @@ namespace Sistem_Reservasi_Hotel.Models
         public int IDAkun { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
-
-        public Akun() { }
 
         private static string HashPassword(string password)
         {
@@ -24,6 +21,11 @@ namespace Sistem_Reservasi_Hotel.Models
                     builder.Append(b.ToString("x2"));
                 return builder.ToString();
             }
+        }
+        public static class Session
+        {
+            public static int CurrentUserId { get; set; }
+            public static string CurrentUsername { get; set; }
         }
 
         public static Akun ValidasiLogin(string username, string password)
@@ -76,13 +78,6 @@ namespace Sistem_Reservasi_Hotel.Models
             }
 
             return null;
-        }
-
-
-        public static class Session
-        {
-            public static int CurrentUserId { get; set; }
-            public static string CurrentUsername { get; set; }
         }
 
         public static bool Daftar(string username, string password)

@@ -20,7 +20,6 @@ namespace Sistem_Reservasi_Hotel.Models
         public string MetodePembayaran { get; set; }
         public DateTime TanggalTransaksi { get; set; }
 
-
         public static List<RiwayatTransaksi> GetAllRiwayat()
         {
             List<RiwayatTransaksi> listRiwayat = new List<RiwayatTransaksi>();

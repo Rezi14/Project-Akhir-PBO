@@ -158,23 +158,5 @@ namespace Sistem_Reservasi_Hotel.Models
             }
             return list;
         }
-
-        public static decimal GetHargaKamarByNomor(string nomorKamar)
-        {
-            decimal harga = 0;
-            using (var conn = DbContext.GetConnection())
-            {
-                conn.Open();
-                string query = "SELECT t.harga_per_malam FROM kamar k JOIN tipe_kamar t ON k.id_tipe_kamar = t.id_tipe_kamar WHERE k.nomor_kamar = @nomor";
-                using (var cmd = new NpgsqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@nomor", nomorKamar);
-                    var result = cmd.ExecuteScalar();
-                    if (result != null) harga = Convert.ToDecimal(result);
-                }
-            }
-            return harga;
-        }
-        
     }
 }

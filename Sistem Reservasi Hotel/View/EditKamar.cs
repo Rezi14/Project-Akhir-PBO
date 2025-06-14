@@ -21,7 +21,7 @@ namespace Sistem_Reservasi_Hotel.View
         {
             InitializeComponent();
             kamarToEdit = kamar;
-           
+
         }
 
         private void EditKamar_Load(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace Sistem_Reservasi_Hotel.View
             {
                 string allErrors = string.Join("\n", validationErrors);
                 MessageBox.Show(allErrors, "Input Tidak Valid", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; 
+                return;
             }
 
             try
@@ -92,8 +92,8 @@ namespace Sistem_Reservasi_Hotel.View
             }
 
         }
-    
-    private void loadtipekamar()
+
+        private void loadtipekamar()
         {
             comboBoxTipeKamar2.Items.Clear();
             try
@@ -113,5 +113,6 @@ namespace Sistem_Reservasi_Hotel.View
             }
 
         }
-    } 
-}
+    }
+} 
+

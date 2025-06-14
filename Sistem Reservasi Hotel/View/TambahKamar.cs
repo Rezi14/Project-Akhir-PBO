@@ -71,28 +71,19 @@ namespace Sistem_Reservasi_Hotel.View
             comboBoxTipeKamar.Items.Clear();
             try
             {
-                using (var conn = DbContext.GetConnection())
+                var daftarTipeKamar = TipeKamarController.GetAllTipeKamar();
+
+                if (daftarTipeKamar.Any())
                 {
-                    conn.Open();
-                    string query = @"
-                    SELECT id_tipe_kamar, nama_tipe_kamar 
-                    FROM tipe_kamar
-                    ORDER BY id_tipe_kamar";
-
-                    using (var cmd = new NpgsqlCommand(query, conn))
-                    using (var reader = cmd.ExecuteReader())
+                    foreach (var tipe in daftarTipeKamar)
                     {
-                        while (reader.Read())
-                        {
-                            comboBoxTipeKamar.Items.Add(reader.GetInt32(0) + " - " + reader.GetString(1));
-
-                        }
+                        comboBoxTipeKamar.Items.Add($"{tipe.IDTipeKamar} - {tipe.NamaTipeKamar}");
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Gagal load layanan:\n" + ex.Message);
+                MessageBox.Show("Gagal memuat data tipe kamar:\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }

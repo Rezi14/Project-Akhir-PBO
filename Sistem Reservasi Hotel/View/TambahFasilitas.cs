@@ -19,7 +19,6 @@ namespace Sistem_Reservasi_Hotel.View
             InitializeComponent();
         }
 
-
         private void btnTambahFasilitas2_Click(object sender, EventArgs e)
         {
             var errors = FasilitasController.ValidateFasilitas(textNamaFasilitas.Text, textBiayaTambahan.Text);
@@ -41,7 +40,6 @@ namespace Sistem_Reservasi_Hotel.View
             MessageBox.Show("Fasilitas berhasil ditambahkan!", "Sukses");
             this.DialogResult = DialogResult.OK;
             this.Close();
-
         }
 
         private void btnBatal_Click(object sender, EventArgs e)

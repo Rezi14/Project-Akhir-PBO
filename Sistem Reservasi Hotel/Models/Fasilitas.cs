@@ -67,8 +67,6 @@ namespace Sistem_Reservasi_Hotel.Models
             return listfasilitas;
         }
 
-
-
         public static void InsertFasilitas(Fasilitas fasilitas)
         {
             string query = $"INSERT INTO fasilitas (nama_fasilitas, biaya_tambahan, deskripsi, status_fasilitas) VALUES(@nama_fasilitas, @biaya_tambahan, @deskripsi, @status_fasilitas)";

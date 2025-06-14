@@ -19,6 +19,12 @@ namespace Sistem_Reservasi_Hotel.View
             LoadFasilitas();
         }
 
+        private void FormReservasi_Load(object sender, EventArgs e)
+        {
+            LoadNomorKamar();
+            LoadFasilitas();
+        }
+
         private void btnReservasi_Click(object sender, EventArgs e)
         {
             var selectedKamarItem = cbNomorKamar1.SelectedItem;
@@ -38,7 +44,6 @@ namespace Sistem_Reservasi_Hotel.View
                 tanggal_check_out
             );
 
-            
             if (validationErrors.Any()) 
             {
                 
@@ -47,7 +52,6 @@ namespace Sistem_Reservasi_Hotel.View
                 return; 
             }
 
-            
             try
             {
                 string selectedKamar = selectedKamarItem.ToString();
@@ -95,28 +99,19 @@ namespace Sistem_Reservasi_Hotel.View
             cbNomorKamar1.Items.Clear();
             try
             {
-                using (var conn = DbContext.GetConnection())
-                {
-                    conn.Open();
-                    string query = @"
-                    SELECT id_kamar, nomor_kamar
-                    from kamar
-                    where status_kamar = true
-                    ORDER BY id_kamar";
+                var kamarTersedia = KamarController.GetKamarTersedia();
 
-                    using (var cmd = new NpgsqlCommand(query, conn))
-                    using (var reader = cmd.ExecuteReader())
+                if (kamarTersedia.Any())
+                {
+                    foreach (var kamar in kamarTersedia)
                     {
-                        while (reader.Read())
-                        {
-                            cbNomorKamar1.Items.Add(reader.GetInt32(0) + " - " + reader.GetString(1));
-                        }
+                        cbNomorKamar1.Items.Add($"{kamar.IDKamar} - {kamar.NomorKamar}");
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Gagal load nomor kamar:\n" + ex.Message);
+                MessageBox.Show("Gagal memuat nomor kamar:\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -128,12 +123,6 @@ namespace Sistem_Reservasi_Hotel.View
             {
                 checkedListBoxFasilitas.Items.Add(fasilitas.IDFasilitas + " - " + fasilitas.NamaFasilitas);
             }
-        }
-
-        private void FormReservasi_Load(object sender, EventArgs e)
-        {
-            LoadNomorKamar();
-            LoadFasilitas();
         }
 
         private void btnBatal_Click(object sender, EventArgs e)
