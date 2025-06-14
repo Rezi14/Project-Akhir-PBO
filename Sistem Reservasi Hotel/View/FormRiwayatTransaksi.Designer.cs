@@ -108,7 +108,7 @@
             btnFilterBulan.Name = "btnFilterBulan";
             btnFilterBulan.Size = new Size(94, 29);
             btnFilterBulan.TabIndex = 16;
-            btnFilterBulan.Text = "Filter";
+            btnFilterBulan.Text = "Filter Bulan";
             btnFilterBulan.UseVisualStyleBackColor = true;
             btnFilterBulan.Click += btnFilterBulan_Click;
             // 

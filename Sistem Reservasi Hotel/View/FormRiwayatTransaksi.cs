@@ -57,6 +57,9 @@ namespace Sistem_Reservasi_Hotel.View
             if (dataGridViewRiwayatTransaksi.Columns.Contains("NomorIdentitasTamu"))
                 dataGridViewRiwayatTransaksi.Columns["NomorIdentitasTamu"].HeaderText = "Nomor Identitas Tamu";
 
+            if (dataGridViewRiwayatTransaksi.Columns.Contains("NomorKontakTamu"))
+                dataGridViewRiwayatTransaksi.Columns["NomorKontakTamu"].HeaderText = "Nomor Kontak Tamu";
+
             if (dataGridViewRiwayatTransaksi.Columns.Contains("NomorKamar"))
                 dataGridViewRiwayatTransaksi.Columns["NomorKamar"].HeaderText = "Nomor Kamar";
 

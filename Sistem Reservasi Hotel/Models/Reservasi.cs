@@ -115,7 +115,7 @@ namespace Sistem_Reservasi_Hotel.Models
                     try
                     {
                         string query = @"
-                            SELECT r.id_reservasi, r.id_akun, r.nama_tamu, r.nomor_identitas_tamu, r.tanggal_checkin, r.tanggal_checkout,
+                            SELECT r.id_reservasi, r.id_akun, r.nama_tamu, r.nomor_identitas_tamu, r.nomor_kontak_tamu, r.tanggal_checkin, r.tanggal_checkout,
                             k.id_kamar, k.nomor_kamar, t.harga_per_malam
                             FROM reservasi r
                             JOIN kamar k ON r.id_kamar = k.id_kamar
@@ -124,7 +124,7 @@ namespace Sistem_Reservasi_Hotel.Models
 
                         DateTime checkin, checkout;
                         decimal hargaPerMalam;
-                        string namaTamu, nomorIdentitas, nomorKamar;
+                        string namaTamu, nomorIdentitas, nomorKontakTamu, nomorKamar;
                         int idKamar;
 
                         using (var cmd = new NpgsqlCommand(query, conn, transaction))
@@ -144,6 +144,7 @@ namespace Sistem_Reservasi_Hotel.Models
                                 hargaPerMalam = (decimal)reader["harga_per_malam"];
                                 namaTamu = reader["nama_tamu"].ToString();
                                 nomorIdentitas = reader["nomor_identitas_tamu"].ToString();
+                                nomorKontakTamu = reader["nomor_kontak_tamu"].ToString();
                                 nomorKamar = reader["nomor_kamar"].ToString();
                             }
                         }
@@ -181,6 +182,7 @@ namespace Sistem_Reservasi_Hotel.Models
                                 IDAkun = idAkun,
                                 NamaTamu = namaTamu,
                                 NomorIdentitasTamu = nomorIdentitas,
+                                NomorKontakTamu = nomorKontakTamu,
                                 NomorKamar = nomorKamar,
                                 NamaFasilitas = namaFasilitasGabungan,
                                 TanggalCheckIn = checkin,
