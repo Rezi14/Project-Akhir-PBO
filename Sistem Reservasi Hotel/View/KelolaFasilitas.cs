@@ -105,6 +105,9 @@ namespace Sistem_Reservasi_Hotel.View
 
             if (dataGridViewKelolaFasilitas.Columns.Contains("Deskripsi"))
                 dataGridViewKelolaFasilitas.Columns["Deskripsi"].HeaderText = "Deskripsi";
+
+            if (dataGridViewKelolaFasilitas.Columns.Contains("StatusFasilitas"))
+                dataGridViewKelolaFasilitas.Columns["StatusFasilitas"].HeaderText = "Status Fasilitas";
             
             ResetKolomUrutan();
         }

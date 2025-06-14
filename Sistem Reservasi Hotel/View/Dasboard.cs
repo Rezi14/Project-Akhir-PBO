@@ -29,7 +29,7 @@ namespace Sistem_Reservasi_Hotel.View
         private void btnKelolaFasilitas_Click(object sender, EventArgs e)
         {
             new KelolaFasilitas().Show();
-            this.Close();
+            this.Hide();
         }
 
         private void btnCheckIn_Click(object sender, EventArgs e)

@@ -81,8 +81,6 @@ namespace Sistem_Reservasi_Hotel.View
                 KamarController.UpdateStatusKamar(id_kamar, false);
 
                 MessageBox.Show("Reservasi berhasil ditambahkan!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Dasboard dasboard = new Dasboard();
-                dasboard.Show();
                 this.Close();
             }
             catch (Exception ex)
