@@ -80,7 +80,7 @@ namespace Sistem_Reservasi_Hotel.View
                 dataGridViewReservasi.Columns["nomor_kamar"].HeaderText = "Nomor Kamar";
 
             if (dataGridViewReservasi.Columns.Contains("nama_fasilitas_list"))
-                dataGridViewReservasi.Columns["nama_fasilitas_list"].HeaderText = "Daftar Fasilitas"; // Sesuaikan dengan nama alias di query
+                dataGridViewReservasi.Columns["nama_fasilitas_list"].HeaderText = "Daftar Fasilitas";
 
             if (dataGridViewReservasi.Columns.Contains("nama_tamu"))
                 dataGridViewReservasi.Columns["nama_tamu"].HeaderText = "Nama Tamu";
