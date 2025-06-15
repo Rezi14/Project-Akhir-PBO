@@ -22,32 +22,42 @@ namespace Sistem_Reservasi_Hotel.View
 
         private void btnKelolaKamar_Click(object sender, EventArgs e)
         {
-            new FormKelolaKamar().Show();
+            FormKelolaKamar formkelolakamar = new FormKelolaKamar();
             this.Hide();
+            formkelolakamar.ShowDialog();
+            this.Close();
         }
 
         private void btnKelolaFasilitas_Click(object sender, EventArgs e)
         {
-            new KelolaFasilitas().Show();
+            KelolaFasilitas kelolafasilitas = new KelolaFasilitas();
             this.Hide();
+            kelolafasilitas.ShowDialog();
+            this.Close();
         }
 
         private void btnCheckIn_Click(object sender, EventArgs e)
         {
-            new FormReservasi().Show();
+            FormReservasi formreservasi = new FormReservasi();
             this.Hide();
+            formreservasi.ShowDialog();
+            this.Close();
         }
 
         private void btnRiwayatTransaksi_Click(object sender, EventArgs e)
         {
-            new FormRiwayatTransaksi().Show();
+            FormRiwayatTransaksi formriwayattransaksi = new FormRiwayatTransaksi();
             this.Hide();
+            formriwayattransaksi.ShowDialog();
+            this.Close();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            new FormLogin().Show();
+            FormLogin formlogin = new FormLogin();
             this.Hide();
+            formlogin.ShowDialog();
+            this.Close();
         }
 
 
