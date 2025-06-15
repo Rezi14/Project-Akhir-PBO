@@ -67,7 +67,8 @@ namespace Sistem_Reservasi_Hotel.Models
                 {
                     try
                     {
-                        string insertReservasiQuery = $"INSERT INTO reservasi (id_kamar, id_akun,nama_tamu, nomor_identitas_tamu, nomor_kontak_tamu, tanggal_checkin, tanggal_checkout, status_reservasi) VALUES(@id_kamar, @id_akun,@nama_tamu, @nomor_identitas_tamu, @nomor_kontak_tamu, @tanggal_checkin, @tanggal_checkout, @status_reservasi) RETURNING id_reservasi";
+                        string insertReservasiQuery = $"INSERT INTO reservasi (id_kamar, id_akun,nama_tamu, nomor_identitas_tamu, nomor_kontak_tamu, tanggal_checkin, tanggal_checkout, status_reservasi)" +
+                            $" VALUES(@id_kamar, @id_akun,@nama_tamu, @nomor_identitas_tamu, @nomor_kontak_tamu, @tanggal_checkin, @tanggal_checkout, @status_reservasi) RETURNING id_reservasi";
                         int newReservasiId;
                         using (var cmd = new NpgsqlCommand(insertReservasiQuery, conn, transaction))
                         {
@@ -115,8 +116,8 @@ namespace Sistem_Reservasi_Hotel.Models
                     try
                     {
                         string query = @"
-                            SELECT r.id_reservasi, r.id_akun, r.nama_tamu, r.nomor_identitas_tamu, r.nomor_kontak_tamu, r.tanggal_checkin, r.tanggal_checkout,
-                            k.id_kamar, k.nomor_kamar, t.harga_per_malam
+                            SELECT r.id_reservasi, r.id_akun, r.nama_tamu, r.nomor_identitas_tamu, r.nomor_kontak_tamu, 
+                            r.tanggal_checkin, r.tanggal_checkout, k.id_kamar, k.nomor_kamar, t.harga_per_malam
                             FROM reservasi r
                             JOIN kamar k ON r.id_kamar = k.id_kamar
                             JOIN tipe_kamar t ON k.id_tipe_kamar = t.id_tipe_kamar

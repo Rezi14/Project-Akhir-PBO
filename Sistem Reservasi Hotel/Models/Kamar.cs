@@ -42,7 +42,8 @@ namespace Sistem_Reservasi_Hotel.Models
 
         public static void InsertKamar(Kamar kamar)
         {
-            string query = $"INSERT INTO kamar (nomor_kamar, id_tipe_kamar, status_kamar, deskripsi) VALUES(@nomor_kamar, @id_tipe_kamar, @status_kamar, @deskripsi)";
+            string query = $"INSERT INTO kamar (nomor_kamar, id_tipe_kamar, status_kamar, deskripsi) " +
+                $"VALUES(@nomor_kamar, @id_tipe_kamar, @status_kamar, @deskripsi)";
             try
             {
                 using (var conn = DbContext.GetConnection())

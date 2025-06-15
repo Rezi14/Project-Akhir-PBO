@@ -69,7 +69,8 @@ namespace Sistem_Reservasi_Hotel.Models
 
         public static void InsertFasilitas(Fasilitas fasilitas)
         {
-            string query = $"INSERT INTO fasilitas (nama_fasilitas, biaya_tambahan, deskripsi, status_fasilitas) VALUES(@nama_fasilitas, @biaya_tambahan, @deskripsi, @status_fasilitas)";
+            string query = $"INSERT INTO fasilitas (nama_fasilitas, biaya_tambahan, deskripsi, status_fasilitas) " +
+                $"VALUES(@nama_fasilitas, @biaya_tambahan, @deskripsi, @status_fasilitas)";
             try
             {
                 using (var conn = DbContext.GetConnection())
