@@ -30,8 +30,9 @@ namespace Sistem_Reservasi_Hotel.View
         private void btnKembali_Click(object sender, EventArgs e)
         {
             Dasboard dasboard = new Dasboard();
-            dasboard.Show();
             this.Hide();
+            dasboard.ShowDialog();
+            this.Close();
         }
         private void tampilkanriwayat()
         {

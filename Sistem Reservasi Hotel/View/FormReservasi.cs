@@ -128,8 +128,9 @@ namespace Sistem_Reservasi_Hotel.View
         private void btnBatal_Click(object sender, EventArgs e)
         {
             Dasboard dasboard = new Dasboard();
-            dasboard.Show();
             this.Hide();
+            dasboard.ShowDialog();
+            this.Close();
         }
 
         private void cbNomorKamar1_SelectedIndexChanged(object sender, EventArgs e)
