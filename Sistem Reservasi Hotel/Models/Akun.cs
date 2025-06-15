@@ -22,11 +22,6 @@ namespace Sistem_Reservasi_Hotel.Models
                 return builder.ToString();
             }
         }
-        public static class Session
-        {
-            public static int CurrentUserId { get; set; }
-            public static string CurrentUsername { get; set; }
-        }
 
         public static Akun ValidasiLogin(string username, string password)
         {
