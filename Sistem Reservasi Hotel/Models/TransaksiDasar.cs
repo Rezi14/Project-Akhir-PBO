@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Sistem_Reservasi_Hotel.Models
 {
-    // UBAH: Ini adalah kelas abstract baru sebagai kelas dasar (parent class).
     public abstract class TransaksiDasar
     {
-        // Properti yang sama-sama dimiliki oleh Reservasi dan RiwayatTransaksi
         public int IDReservasi { get; set; }
         public int IDAkun { get; set; }
         public string NamaTamu { get; set; }
