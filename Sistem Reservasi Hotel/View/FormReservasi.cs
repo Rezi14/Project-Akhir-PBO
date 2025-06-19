@@ -34,7 +34,7 @@ namespace Sistem_Reservasi_Hotel.View
             DateTime tanggal_check_in = dateTimeCheckIn1.Value;
             DateTime tanggal_check_out = dateTimeCheckOut1.Value;
 
-            
+
             List<string> validationErrors = ReservasiController.ValidateReservasi(
                 selectedKamarItem,
                 nama_tamu,
@@ -44,12 +44,12 @@ namespace Sistem_Reservasi_Hotel.View
                 tanggal_check_out
             );
 
-            if (validationErrors.Any()) 
+            if (validationErrors.Any())
             {
-                
+
                 string allErrors = string.Join("\n", validationErrors);
                 MessageBox.Show(allErrors, "Input Tidak Valid", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; 
+                return;
             }
 
             try
@@ -85,7 +85,7 @@ namespace Sistem_Reservasi_Hotel.View
                 KamarController.UpdateStatusKamar(id_kamar, false);
 
                 MessageBox.Show("Reservasi berhasil ditambahkan!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                new Dasboard().Show();
+                new Dasboard().ShowDialog();
                 this.Close();
             }
             catch (Exception ex)

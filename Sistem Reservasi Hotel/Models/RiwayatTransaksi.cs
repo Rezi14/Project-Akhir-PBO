@@ -4,18 +4,10 @@ using System.Collections.Generic;
 
 namespace Sistem_Reservasi_Hotel.Models
 {
-    public class RiwayatTransaksi
+    public class RiwayatTransaksi : TransaksiDasar
     {
         public int IDRiwayatTransaksi { get; set; }
-        public int IDReservasi { get; set; }
-        public int IDAkun { get; set; }
-        public string NamaTamu { get; set; }
-        public string NomorIdentitasTamu { get; set; }
-        public string NomorKontakTamu { get; set; }
-        public string NomorKamar { get; set; }
         public string NamaFasilitas { get; set; }
-        public DateTime TanggalCheckIn { get; set; }
-        public DateTime TanggalCheckOut { get; set; }
         public decimal TotalBiaya { get; set; }
         public string MetodePembayaran { get; set; }
         public DateTime TanggalTransaksi { get; set; }
@@ -26,7 +18,7 @@ namespace Sistem_Reservasi_Hotel.Models
             using (var conn = DbContext.GetConnection())
             {
                 conn.Open();
-                string query = "SELECT * FROM riwayat_transaksi ORDER BY id_riwayat_transaksi";
+                string query = @"SELECT * FROM riwayat_transaksi ORDER BY id_riwayat_transaksi";
                 using (var cmd = new NpgsqlCommand(query, conn))
                 {
                     using (var reader = cmd.ExecuteReader())
@@ -77,19 +69,19 @@ namespace Sistem_Reservasi_Hotel.Models
                         {
                             list.Add(new RiwayatTransaksi
                             {
-                                IDRiwayatTransaksi = reader.GetInt32(0),
-                                IDReservasi = reader.GetInt32(1),
-                                IDAkun = reader.GetInt32(2),
-                                NamaTamu = reader.GetString(3),
-                                NomorIdentitasTamu = reader.GetString(4),
-                                NomorKontakTamu = reader.GetString(5),
-                                NomorKamar = reader.GetString(6),
-                                NamaFasilitas = reader.GetString(7),
-                                TanggalCheckIn = reader.GetDateTime(8),
-                                TanggalCheckOut = reader.GetDateTime(9),
-                                TotalBiaya = reader.GetDecimal(10),
-                                MetodePembayaran = reader.GetString(11),
-                                TanggalTransaksi = reader.GetDateTime(12)
+                                IDRiwayatTransaksi = Convert.ToInt32(reader["id_riwayat_transaksi"]),
+                                IDReservasi = Convert.ToInt32(reader["id_reservasi"]),
+                                IDAkun = Convert.ToInt32(reader["id_akun"]),
+                                NamaTamu = reader["nama_tamu"].ToString(),
+                                NomorIdentitasTamu = reader["nomor_identitas_tamu"].ToString(),
+                                NomorKontakTamu = reader["nomor_kontak_tamu"].ToString(),
+                                NomorKamar = reader["nomor_kamar"].ToString(),
+                                NamaFasilitas = reader["nama_fasilitas"].ToString(),
+                                TanggalCheckIn = Convert.ToDateTime(reader["tanggal_checkin"]),
+                                TanggalCheckOut = Convert.ToDateTime(reader["tanggal_checkout"]),
+                                TotalBiaya = Convert.ToDecimal(reader["total_biaya"]),
+                                MetodePembayaran = reader["metode_pembayaran"].ToString(),
+                                TanggalTransaksi = Convert.ToDateTime(reader["tanggal_transaksi"])
                             });
                         }
                     }

@@ -2,23 +2,26 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Windows.Forms;
-using static Sistem_Reservasi_Hotel.Models.Akun;
 
 namespace Sistem_Reservasi_Hotel.Models
 {
-    public class Reservasi
+    public class Reservasi : TransaksiDasar
     {
-        public int IDReservasi { get; set; }
+        // jam checkout
+        private const int JAM_CHECKOUT = 12; // Jam 12 siang
+
         public int IDKamar { get; set; }
-        public int IDAkun { get; set; }
-        public string NamaTamu { get; set; }
-        public string NomorIdentitasTamu { get; set; }
-        public string NomorKontakTamu { get; set; }
-        public DateTime TanggalCheckIn { get; set; }
-        public DateTime TanggalCheckOut { get; set; }
         public bool StatusReservasi { get; set; }
         public List<Fasilitas> FasilitasTambahan { get; set; } = new List<Fasilitas>();
+
+        public override decimal HitungBiayaTotal(decimal hargaPerMalam)
+        {
+            decimal totalBiayaKamar = base.HitungBiayaTotal(hargaPerMalam);
+            decimal totalBiayaFasilitas = FasilitasTambahan.Sum(f => f.BiayaTambahan);
+            return totalBiayaKamar + totalBiayaFasilitas;
+        }
 
         public static DataTable GetReservasi()
         {
@@ -107,7 +110,6 @@ namespace Sistem_Reservasi_Hotel.Models
         public static decimal Checkout(int idReservasi, string metodePembayaran)
         {
             decimal totalBiaya = 0;
-            int idAkun;
             using (var conn = DbContext.GetConnection())
             {
                 conn.Open();
@@ -123,10 +125,8 @@ namespace Sistem_Reservasi_Hotel.Models
                             JOIN tipe_kamar t ON k.id_tipe_kamar = t.id_tipe_kamar
                             WHERE r.id_reservasi = @id";
 
-                        DateTime checkin, checkout;
+                        Reservasi reservasi = new Reservasi();
                         decimal hargaPerMalam;
-                        string namaTamu, nomorIdentitas, nomorKontakTamu, nomorKamar;
-                        int idKamar;
 
                         using (var cmd = new NpgsqlCommand(query, conn, transaction))
                         {
@@ -138,29 +138,25 @@ namespace Sistem_Reservasi_Hotel.Models
                                     transaction.Rollback();
                                     return 0;
                                 }
-                                idAkun = (int)reader["id_akun"];
-                                idKamar = (int)reader["id_kamar"];
-                                checkin = (DateTime)reader["tanggal_checkin"];
-                                checkout = (DateTime)reader["tanggal_checkout"];
+                                reservasi.IDReservasi = idReservasi;
+                                reservasi.IDAkun = (int)reader["id_akun"];
+                                reservasi.IDKamar = (int)reader["id_kamar"];
+                                reservasi.NamaTamu = reader["nama_tamu"].ToString();
+                                reservasi.NomorIdentitasTamu = reader["nomor_identitas_tamu"].ToString();
+                                reservasi.NomorKontakTamu = reader["nomor_kontak_tamu"].ToString();
+                                reservasi.NomorKamar = reader["nomor_kamar"].ToString();
+                                reservasi.TanggalCheckIn = (DateTime)reader["tanggal_checkin"];
+                                reservasi.TanggalCheckOut = (DateTime)reader["tanggal_checkout"];
                                 hargaPerMalam = (decimal)reader["harga_per_malam"];
-                                namaTamu = reader["nama_tamu"].ToString();
-                                nomorIdentitas = reader["nomor_identitas_tamu"].ToString();
-                                nomorKontakTamu = reader["nomor_kontak_tamu"].ToString();
-                                nomorKamar = reader["nomor_kamar"].ToString();
                             }
                         }
 
-                        int jumlahMalam = (checkout - checkin).Days;
-                        if (jumlahMalam <= 0) jumlahMalam = 1;
-
-                        decimal biayaKamar = hargaPerMalam * jumlahMalam;
-                        totalBiaya += biayaKamar;
-
                         string fasilitasQuery = @"
-                            SELECT f.nama_fasilitas, f.biaya_tambahan
+                            SELECT f.id_fasilitas, f.nama_fasilitas, f.biaya_tambahan, f.deskripsi, f.status_fasilitas
                             FROM reservasi_fasilitas rf
                             JOIN fasilitas f ON rf.id_fasilitas = f.id_fasilitas
                             WHERE rf.id_reservasi = @id_reservasi";
+
                         List<string> namaFasilitasList = new List<string>();
                         using (var fasilitasCmd = new NpgsqlCommand(fasilitasQuery, conn, transaction))
                         {
@@ -169,25 +165,51 @@ namespace Sistem_Reservasi_Hotel.Models
                             {
                                 while (fasilitasReader.Read())
                                 {
-                                    totalBiaya += (decimal)fasilitasReader["biaya_tambahan"];
+                                    reservasi.FasilitasTambahan.Add(new Fasilitas
+                                    {
+                                        BiayaTambahan = (decimal)fasilitasReader["biaya_tambahan"]
+                                    });
                                     namaFasilitasList.Add(fasilitasReader["nama_fasilitas"].ToString());
                                 }
                             }
                         }
+
+                        totalBiaya = reservasi.HitungBiayaTotal(hargaPerMalam);
                         string namaFasilitasGabungan = string.Join(", ", namaFasilitasList);
+
+                        DateTime waktuCheckoutSekarang = DateTime.Now;
+                        DateTime batasWaktuCheckout = new DateTime(
+                            reservasi.TanggalCheckOut.Year,
+                            reservasi.TanggalCheckOut.Month,
+                            reservasi.TanggalCheckOut.Day,
+                            JAM_CHECKOUT,
+                            0,
+                            0);
+
+                        if (waktuCheckoutSekarang > batasWaktuCheckout)
+                        {
+                            totalBiaya += hargaPerMalam;
+
+                            MessageBox.Show(
+                                $"Dikenakan denda keterlambatan sebesar: Rp{hargaPerMalam:N0}\n\n" +
+                                $"Alasan: Checkout dilakukan setelah pukul {JAM_CHECKOUT}:00.",
+                                "Informasi Denda Keterlambatan",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Information);
+                        }
 
                         RiwayatTransaksi.Insert(
                             new RiwayatTransaksi
                             {
                                 IDReservasi = idReservasi,
-                                IDAkun = idAkun,
-                                NamaTamu = namaTamu,
-                                NomorIdentitasTamu = nomorIdentitas,
-                                NomorKontakTamu = nomorKontakTamu,
-                                NomorKamar = nomorKamar,
+                                IDAkun = reservasi.IDAkun,
+                                NamaTamu = reservasi.NamaTamu,
+                                NomorIdentitasTamu = reservasi.NomorIdentitasTamu,
+                                NomorKontakTamu = reservasi.NomorKontakTamu,
+                                NomorKamar = reservasi.NomorKamar,
                                 NamaFasilitas = namaFasilitasGabungan,
-                                TanggalCheckIn = checkin,
-                                TanggalCheckOut = checkout,
+                                TanggalCheckIn = reservasi.TanggalCheckIn,
+                                TanggalCheckOut = reservasi.TanggalCheckOut,
                                 TotalBiaya = totalBiaya,
                                 MetodePembayaran = metodePembayaran,
                                 TanggalTransaksi = DateTime.Now
@@ -200,7 +222,8 @@ namespace Sistem_Reservasi_Hotel.Models
                             updateCmd.ExecuteNonQuery();
                         }
 
-                        Kamar.UpdateStatusKamar(idKamar, true);
+                        Kamar.UpdateStatusKamar(reservasi.IDKamar, true);
+
                         transaction.Commit();
                     }
                     catch (Exception ex)
