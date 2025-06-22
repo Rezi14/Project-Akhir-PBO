@@ -11,7 +11,6 @@ namespace Sistem_Reservasi_Hotel.Models
     {
         // jam checkout
         private const int JAM_CHECKOUT = 12; // Jam 12 siang
-
         public int IDKamar { get; set; }
         public bool StatusReservasi { get; set; }
         public List<Fasilitas> FasilitasTambahan { get; set; } = new List<Fasilitas>();
@@ -75,13 +74,22 @@ namespace Sistem_Reservasi_Hotel.Models
                         int newReservasiId;
                         using (var cmd = new NpgsqlCommand(insertReservasiQuery, conn, transaction))
                         {
+                            DateTime tanggalCheckoutInput = reservasi.TanggalCheckOut;
+                            DateTime tanggalCheckoutFinal = new DateTime(
+                                tanggalCheckoutInput.Year,
+                                tanggalCheckoutInput.Month,
+                                tanggalCheckoutInput.Day,
+                                JAM_CHECKOUT,
+                                0,  
+                                0   
+                            );
                             cmd.Parameters.AddWithValue("@id_kamar", reservasi.IDKamar);
                             cmd.Parameters.AddWithValue("@id_akun", Session.CurrentUserId);
                             cmd.Parameters.AddWithValue("@nama_tamu", reservasi.NamaTamu);
                             cmd.Parameters.AddWithValue("@nomor_identitas_tamu", reservasi.NomorIdentitasTamu);
                             cmd.Parameters.AddWithValue("@nomor_kontak_tamu", reservasi.NomorKontakTamu);
                             cmd.Parameters.AddWithValue("@tanggal_checkin", reservasi.TanggalCheckIn);
-                            cmd.Parameters.AddWithValue("@tanggal_checkout", reservasi.TanggalCheckOut);
+                            cmd.Parameters.AddWithValue("@tanggal_checkout", tanggalCheckoutFinal);
                             cmd.Parameters.AddWithValue("@status_reservasi", reservasi.StatusReservasi);
                             newReservasiId = (int)cmd.ExecuteScalar();
                         }

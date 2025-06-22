@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj": {}
+    "C:\\Users\\LENOVO LOQ\\Source\\Repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj": {
+    "C:\\Users\\LENOVO LOQ\\Source\\Repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO LOQ\\Source\\Repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj",
         "projectName": "Sistem Reservasi Hotel",
-        "projectPath": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj",
+        "projectPath": "C:\\Users\\LENOVO LOQ\\Source\\Repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\Sistem Reservasi Hotel.csproj",
         "packagesPath": "C:\\Users\\LENOVO LOQ\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\LENOVO LOQ\\source\\repos\\Sistem Reservasi Hotel Final\\Sistem Reservasi Hotel\\obj\\",
         "projectStyle": "PackageReference",
