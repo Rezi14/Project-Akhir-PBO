@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistem_Reservasi_Hotel.Models
 {
-    public abstract class TransaksiDasar
+    public class TransaksiDasar
     {
         public int IDReservasi { get; set; }
         public int IDAkun { get; set; }
